@@ -1,0 +1,718 @@
+/* Alignment based */
+
+h1,h2,h3,h4,h5,h6
+{
+    
+}
+
+.no-margin
+{
+    margin-left:0px!important;
+    margin-right:0px!important;
+}
+
+.no-padding
+{
+    padding-left:0px!important;
+    padding-right:0px!important;
+}
+
+.padding-15px
+{
+    padding-left:15px!important;
+    padding-right:15px!important;
+}
+
+.margin-15px
+{
+    margin-left:15px!important;
+    margin-right:15px!important;
+}
+
+
+@media(max-width:576px)
+{
+    .padding-15px-mobile
+    {
+        padding-left:15px!important;
+        padding-right:15px!important;
+    }  
+    
+    .margin-bottom-10px-mobile
+    {
+        margin-bottom:10px;
+    }
+}
+.padding-15px-vertical
+{
+    padding-top:15px!important;
+    padding-bottom:15px!important;
+}
+
+
+.vertical-middle
+{
+    display:flex;
+    align-items:center;
+}
+
+.vertical-bottom
+{
+    display:flex;
+    align-items:flex-end;
+}
+
+.horizontal-middle-flex
+{
+    display:flex;
+    justify-content:center;    
+}
+
+.horizontal-right-flex
+{
+    display:flex;
+    justify-content:flex-end;    
+}
+
+.horizontal-middle
+{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+@media(max-width:768px)   
+{
+
+    .horizontal-middle-md
+    {
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+}
+
+.card-holder
+{
+    padding:15px;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-bottom:20px;
+    position:relative;
+}
+
+.drop-shadow, .drop-shadow:focus
+{
+    /* box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.1); */
+    box-shadow: 8px 8px 12px 1px rgba(0,0,0,0.05)
+}
+
+.drop-shadow-left, .drop-shadow-left:focus
+{
+    box-shadow: -10px 0px 10px 0px rgba(0,0,0,0.1);   
+}
+
+h1 i.fas
+{
+    font-size: 2.3rem;
+}
+
+
+
+.dashboard-title
+{
+    text-transform:uppercase;
+    font-weight:700;
+    margin-bottom:30px;
+}
+
+.dashboard-title3-bold
+{
+    text-transform:uppercase;
+    font-weight:700;  
+    margin-bottom:0px;
+}
+.dashboard-title3
+{
+    text-transform:uppercase;
+    font-weight:600;    
+}
+
+.collapsible-div-button
+{
+    cursor:pointer;
+    -webkit-appearance: none!important;
+}
+
+.collapsible-div
+{
+    margin-top:20px;
+    padding-left:15px;
+}
+
+.collapsible-div-button .flt
+{
+    top: 14px;
+    position: absolute;
+    right: 15px;
+    transform: rotate(0deg);
+    -webkit-transition: transform ease-out 0.3s;
+    -moz-transition: transform ease-out 0.3s;
+    -o-transition: transform ease-out 0.3s;
+    transition: transform ease-out 0.3s;
+    font-weight:600;
+}
+
+.collapsible-div-button.opened .flt
+{
+    transform:rotate(90deg);
+}
+
+.collapsible-div-button .dashboard-title3-bold
+{
+    display:inline-block;
+}
+
+/* Input forms */
+
+.form-control, .form-control:focus, .bootstrap-tagsinput
+{
+    border: 1px solid rgba(0,0,0,0.1)!important;
+    border-radius:0px;
+    box-shadow: 3px 3px 10px 3px rgba(0,0,0,0.07);
+    margin-bottom:10px;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+}
+
+.form-control:focus
+{
+    box-shadow:none;
+}
+
+textarea
+{
+    height: 200px;
+    resize: none;
+}
+
+
+
+/* Selekt the form and remove the original arrow */
+select.input-lg {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  margin-bottom:10px;
+  /* no standardized syntax available, no ie-friendly solution available */
+}
+
+select + i.flt {
+  float: right;
+  margin-top: -45px;
+  margin-right: 5px;
+  /* this is so when you click on the chevron, your click actually goes on the dropdown menu */
+  pointer-events: none;
+  /* everything after this is just to cover up the original arrow */
+  /* (for browsers that don't support the syntax used above) */
+  background-color: #fff;
+  padding-right: 5px;
+  transform: rotate(-90deg);
+  font-weight:600;
+}
+
+/* Checkbox */
+.custom-checkbox .custom-control-label::before
+{
+    border-radius:0px;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before
+{
+    background-color:#0e2b3d!important;
+    
+}
+
+.custom-control-label::after, .custom-control-label::before
+{
+    box-shadow: none!important;
+}
+
+/* Buttons */
+
+.theme-rounded-button
+{
+	border-radius: 60px!important;
+	padding: 1em 3.5em!important; 
+	font-size:10px;
+	text-align: center;
+	
+}
+
+.delete-button, .save-button
+{
+    margin-left:15px;
+}
+
+
+@media(min-width:992px)
+{
+    .delete-button, .save-button
+    {
+        position:fixed;
+        top:130px;
+        
+    }
+    
+    .delete-button
+    {
+        right:145px;
+    }
+    .save-button
+    {
+        right:30px;
+    }
+}
+
+/* File upload */
+.fa-times
+{
+    color:#d1545c;
+    cursor:pointer;
+}
+
+.file-upload-hidden
+{
+    display:none;
+}
+.file-upload-wrapper
+{
+    height:280px;
+    
+}
+
+.file-upload-wrapper-dashed
+{
+    height:315px;
+}
+
+.file-upload, .file-upload-dashed
+{
+    opacity: 0;
+    z-index: 2;
+    position: relative;
+
+    width: 100%;
+
+    cursor:pointer;
+}
+
+.file-upload
+{
+    top: -200px;
+    height:200px;
+}
+
+.file-upload-dashed
+{
+    top: -315px;
+    height:315px;
+}
+.file-upload-label
+{
+    position: relative;
+    z-index: 1;
+    text-align:center;
+    width:100%;
+   
+}
+
+.file-icon
+{
+    height: 165px;
+    font-size: 103px;
+    padding: 30px 0px;
+    opacity:0.8;
+}
+
+.file-upload-image
+{
+    padding: 30px 0px 20px 23px;
+}
+
+.file-preview
+{
+    margin:30px 0px;
+}
+.file-preview img
+{
+    width:100%;
+    height:300px;
+    object-fit:contain;
+}
+
+/* Tags */
+.tag.label
+{
+    background-color:#d1545b;
+    padding:3px;
+}
+
+/*Edit */
+.backend-module-icon
+{
+    width: 50px;
+    
+}
+
+.backend-module-number
+{
+    width: 40px;
+    padding-left: 10px;
+    
+    border-radius: 60px;
+    
+}
+
+@media(min-width:1200px)
+{
+    .backend-module-icon
+    {
+        margin-left: 20px;
+    }
+    
+    .backend-module-number
+    {
+        margin-left: 25px;
+
+    }    
+}
+
+
+.backend-module-edit-iconsholder 
+{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    text-align:right;
+    padding-right:10px;
+}
+
+.backend-module-edit-iconsholder-left
+{
+    justify-content:start;
+    
+    padding-left:10px;
+    padding-right:0px;   
+    
+}
+
+.flaticon-writing, .flaticon-document, .flaticon-upload
+{
+    font-weight: 600;
+}
+.backend-module-edit-iconsholder .flt, .display-picture-iconsholder .flt, .display-picture-iconsholder .flt
+{
+    cursor:pointer;
+    
+    font-size: 20px;
+}
+
+.backend-module-edit-iconsholder .flaticon-document
+{
+    cursor:default;
+}
+
+@media(min-width:1200px)
+{
+    .backend-module-edit-iconsholder-left .flt
+    {
+        font-size:20px;
+    }
+    .module-card-div .card-holder
+    {
+        height:80px;
+    }
+
+
+}
+
+.new-module-input
+{
+    background:transparent;
+    border:0px;
+    border-bottom:1px solid #fff;
+    outline:none;
+    width:100%;
+}
+
+@media(min-width:992px)
+{
+        
+    .backend-overflow-div
+    {
+        height: calc(90vh - 200px);
+        overflow-y: auto;
+        padding-right: 30px;
+    }
+
+}
+
+/* Scrollbar */
+
+.scrollbar-change::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.scrollbar-change::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+.module-name, .module-add-plus
+{
+    display:flex;
+    align-items:center;
+}
+
+.module-name
+{
+    margin-bottom:0px!important;
+    height: 40px;
+}
+
+.backend-course-image
+{
+    
+}
+
+.backend-course-image img
+{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.display-picture-iconsholder
+{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+}
+
+.display-picture-iconsholder label
+{
+    margin-bottom:0px;
+}
+.primary-color1-dashed-border
+{
+    border:5px dashed rgba(0,0,0,0.1)!important;
+    border-bottom:0px!important;
+}
+
+.backend-module-thumbnail
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+    cursor:pointer;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    
+}
+
+.backend-module-thumbnail img
+{
+    width: 50px;
+    height: 50px;
+    object-fit:contain;    
+}
+@media(min-width:1200px)   
+{
+    .backend-module-thumbnail-holder
+    {
+        max-width:100px;
+    }
+}
+
+.courses-holder
+{
+    
+    margin-bottom:20px;
+}
+
+.courses-holder:hover h1, .courses-holder:hover h6
+{
+    color:#fff!important;   
+}
+
+
+
+.courses-holder .edit-icons
+{
+
+}
+
+.courses-holder .edit-icons .flt
+{
+    cursor:pointer!important;
+    font-size:25px;
+    font-weight: 300;
+}
+
+
+
+.course-image
+{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.courses-holder .edit-icons
+{
+        display:none;   
+}
+@media(min-width:992px)   
+{
+
+    .courses-holder:hover .edit-icons
+    {
+        display:block;
+        
+    }
+    
+    .courses-holder:hover .copies, .courses-holder:hover .revenue
+    {
+        display:none;
+    
+    }
+
+}
+
+@media(max-width:991px)   
+{
+
+    .courses-holder
+    {
+        cursor:pointer;
+        
+    }
+}
+
+.small-text
+{
+    font-size:14px;
+}
+
+.very-small-text
+{
+    font-size:10px;
+}
+
+.profile-image-small
+{
+    width:80px;
+    height:80px;
+    border-radius:100px;
+}
+
+.profile-image-big
+{
+    width:100px;
+    height:100px;
+    border-radius:100px;
+}
+
+.animatable-button-arrow {
+    border-style: dashed;
+    border-color: transparent;
+    border-width: 0.20em;
+    display: -moz-inline-box;
+    display: inline-block;
+    /* Use font-size to control the size of the arrow. */
+    font-size: 100px;
+    background-color:transparent; /* change background color acc to bg color */ 
+	position:absolute;
+    border-left-color: #0e2b3d!important;
+	opacity:1;
+	margin-left: -1px;
+	-webkit-transition: opacity 0.2s ease-out;
+	-moz-transition: opacity 0.2s ease-out;
+	-o-transition: opacity 0.2s ease-out;
+	transition: opacity 0.2s ease-out;
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently
+	supported by Chrome and Opera */
+    
+}
+
+.animatable-button
+{
+	width:100%;
+	height: 40px;
+	
+	cursor:pointer;
+	color: #f5d35d;
+    
+
+}
+
+.animatable-button-inner
+{
+	width:85%;
+	height: 40px;
+	
+	display:inline-block;
+	vertical-align:top;
+	-webkit-transition: width 0.2s ease-out;
+	-moz-transition: width 0.2s ease-out;
+	-o-transition: width 0.2s ease-out;
+	transition: width 0.2s ease-out;
+	
+}
+
+.animatable-button:hover .animatable-button-inner
+{
+	width:100%;
+
+}
+
+.animatable-button:hover .animatable-button-arrow
+{
+	opacity:0;
+	-webkit-transition: opacity 0.2s ease-out;
+	-moz-transition: opacity 0.2s ease-out;
+	-o-transition: opacity 0.2s ease-out;
+	transition: opacity 0.2s ease-out;
+	
+}
+
+.animatable-button-arrow:before
+{
+	font-family: Flaticon!important;
+    content: '\f118';
+    display: block;
+    position: absolute;
+    top: -14px;
+    left: -35px;
+    font-size: 18px;
+    -webkit-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+}
+
+.animatable-button-text
+{
+    text-align: center;
+    margin-top: -34px;
+	font-weight: 700;
+}

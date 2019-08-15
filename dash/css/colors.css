@@ -1,0 +1,96 @@
+
+/* Primary Color 1 Navy blue */
+.primary-color1, .primary-color1-hover:hover
+{
+    color:#0e2b3d!important; 
+    
+}
+
+.primary-color1-background, .primary-color1-background-hover:hover
+{
+	background-color:#0e2b3d!important;
+}
+
+.primary-color1-overlay:before
+{
+	background-color:rgba(14,43,61,0.9);
+}
+
+.primary-color1-border, .primary-color1-border-hover:hover
+{
+    border: 2px solid #0e2b3d!important;
+}
+
+
+/* Primary Color 2 Yellow */
+.primary-color2
+{
+	color:#f5d35d;
+}
+.primary-color2-background
+{
+	background-color:#f5d35d;
+}
+
+
+/* Secondary Color 1 Red */
+.secondary-color1, .et_pb_slide_content a, .et_pb_text_inner a, .secondary-color1-hover:hover
+{
+	color:#d1545b!important;
+}
+
+.secondary-color1-background, .secondary-color1-background-hover:hover, .secondary-color1-scrollbar::-webkit-scrollbar-thumb 
+{
+	background-color:#d1545b!important;
+}
+
+
+.secondary-color1-border, .secondary-color1-border-hover:hover
+{
+    border: 2px solid #d1545b!important;
+}
+
+.secondary-color1-overlay:before
+{
+	background-color:rgba(209,84,91,0.9);
+}
+
+
+/* Secondary Color 2 Black*/
+.secondary-color2
+{
+	color:#19191e;
+}
+
+/* White color */
+.white, .white-hover:hover
+{
+	color:#fff!important;
+}
+
+
+.white-background, .white-background-hover:hover
+{
+	background-color:#fff!important;
+}
+
+.white-border
+{
+	border:1px solid #fff!important;
+}
+
+/* Transparent */
+.transparent-background, .transparent-background-hover:hover
+{
+	background-color:transparent!important;
+}
+
+.grey
+{
+    color:#7d7d7d;
+}
+
+.grey-border
+{
+    border: 2px solid rgba(0,0,0,0.1);    
+}

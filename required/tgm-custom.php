@@ -23,7 +23,7 @@ function my_theme_register_required_plugins() {
     	array(
 			'name'               => 'Classic Editor', // The plugin name.
 			'slug'               => 'classic-editor', 
-			'source'             => get_stylesheet_directory() . '/includes/plugin_required/classic-editor.zip', // The plugin source.
+			//'source'             => get_stylesheet_directory() . '/includes/plugin_required/classic-editor.zip', // The plugin source.
 			'required'           => true, // If false, the plugin is only 'recommended' instead of required.
 			'version'            => '', // E.g. 1.0.0. If set, the active plugin must be this version or higher. If the plugin version is higher than the plugin version installed, the user will be notified to update the plugin.
 			'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
@@ -35,7 +35,7 @@ function my_theme_register_required_plugins() {
 		array(
 			'name'               => 'Contact Form 7', // The plugin name.
 			'slug'               => 'contact-form-7', 
-			'source'             => get_stylesheet_directory() . '/includes/plugin_required/contact-form-7.zip', // The plugin source.
+			//'source'             => get_stylesheet_directory() . '/includes/plugin_required/contact-form-7.zip', // The plugin source.
 			'required'           => true, // If false, the plugin is only 'recommended' instead of required.
 			'version'            => '', // E.g. 1.0.0. If set, the active plugin must be this version or higher. If the plugin version is higher than the plugin version installed, the user will be notified to update the plugin.
 			'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
@@ -46,7 +46,7 @@ function my_theme_register_required_plugins() {
 		array(
 			'name'               => 'Contact Form 7 Redirection', // The plugin name.
 			'slug'               => 'wpcf7-redirect', 
-			'source'             => get_stylesheet_directory() . '/includes/plugin_required/wpcf7-redirect.zip', // The plugin source.
+			//'source'             => get_stylesheet_directory() . '/includes/plugin_required/wpcf7-redirect.zip', // The plugin source.
 			'required'           => true, // If false, the plugin is only 'recommended' instead of required.
 			'version'            => '', // E.g. 1.0.0. If set, the active plugin must be this version or higher. If the plugin version is higher than the plugin version installed, the user will be notified to update the plugin.
 			'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
@@ -57,7 +57,7 @@ function my_theme_register_required_plugins() {
 		array(
 			'name'               => 'Active Campaign & Contact Form 7', // The plugin name.
 			'slug'               => 'wpop-accf', 
-			'source'             => get_stylesheet_directory() . '/includes/plugin_required/wpop-accf.zip', // The plugin source.
+			//'source'             => get_stylesheet_directory() . '/includes/plugin_required/wpop-accf.zip', // The plugin source.
 			'required'           => true, // If false, the plugin is only 'recommended' instead of required.
 			'version'            => '', // E.g. 1.0.0. If set, the active plugin must be this version or higher. If the plugin version is higher than the plugin version installed, the user will be notified to update the plugin.
 			'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
@@ -81,7 +81,7 @@ function my_theme_register_required_plugins() {
 		array(
 			'name'               => 'One Click Demo Import', // The plugin name.
 			'slug'               => 'one-click-demo-import', 
-			'source'             => get_stylesheet_directory() . '/includes/plugin_required/one-click-demo-import.zip', // The plugin source.
+			//'source'             => get_stylesheet_directory() . '/includes/plugin_required/one-click-demo-import.zip', // The plugin source.
 			'required'           => true, // If false, the plugin is only 'recommended' instead of required.
 			'version'            => '', // E.g. 1.0.0. If set, the active plugin must be this version or higher. If the plugin version is higher than the plugin version installed, the user will be notified to update the plugin.
 			'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
@@ -92,7 +92,7 @@ function my_theme_register_required_plugins() {
 		array(
 			'name'               => 'Ultimate Member', // The plugin name.
 			'slug'               => 'ultimate-member', 
-			'source'             => get_stylesheet_directory() . '/includes/plugin_required/ultimate-member.zip', // The plugin source.
+			//'source'             => get_stylesheet_directory() . '/includes/plugin_required/ultimate-member.zip', // The plugin source.
 			'required'           => true, // If false, the plugin is only 'recommended' instead of required.
 			'version'            => '', // E.g. 1.0.0. If set, the active plugin must be this version or higher. If the plugin version is higher than the plugin version installed, the user will be notified to update the plugin.
 			'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
@@ -103,7 +103,7 @@ function my_theme_register_required_plugins() {
 		array(
 			'name'               => 'Comments – wpDiscuz', // The plugin name.
 			'slug'               => 'wpdiscuz', 
-			'source'             => get_stylesheet_directory() . '/includes/plugin_required/wpdiscuz.zip', // The plugin source.
+			//'source'             => get_stylesheet_directory() . '/includes/plugin_required/wpdiscuz.zip', // The plugin source.
 			'required'           => true, // If false, the plugin is only 'recommended' instead of required.
 			'version'            => '', // E.g. 1.0.0. If set, the active plugin must be this version or higher. If the plugin version is higher than the plugin version installed, the user will be notified to update the plugin.
 			'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
@@ -114,7 +114,7 @@ function my_theme_register_required_plugins() {
 	    array(
 			'name'               => 'PeepSo – User Profile and Social Networking Plugin', // The plugin name.
 			'slug'               => 'peepso-core', 
-			'source'             => get_stylesheet_directory() . '/includes/plugin_required/peepso-core.zip', // The plugin source.
+			//'source'             => get_stylesheet_directory() . '/includes/plugin_required/peepso-core.zip', // The plugin source.
 			'required'           => true, // If false, the plugin is only 'recommended' instead of required.
 			'version'            => '', // E.g. 1.0.0. If set, the active plugin must be this version or higher. If the plugin version is higher than the plugin version installed, the user will be notified to update the plugin.
 			'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
@@ -126,7 +126,7 @@ function my_theme_register_required_plugins() {
 		array(
 			'name'               => 'Enable Media Replace', // The plugin name.
 			'slug'               => 'enable-media-replace', 
-			'source'             => get_stylesheet_directory() . '/includes/plugin_required/enable-media-replace.zip', // The plugin source.
+			//'source'             => get_stylesheet_directory() . '/includes/plugin_required/enable-media-replace.zip', // The plugin source.
 			'required'           => true, // If false, the plugin is only 'recommended' instead of required.
 			'version'            => '', // E.g. 1.0.0. If set, the active plugin must be this version or higher. If the plugin version is higher than the plugin version installed, the user will be notified to update the plugin.
 			'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
@@ -137,7 +137,7 @@ function my_theme_register_required_plugins() {
 		array(
 			'name'               => 'Safe SVG', // The plugin name.
 			'slug'               => 'safe-svg', 
-			'source'             => get_stylesheet_directory() . '/includes/plugin_required/safe-svg.zip', // The plugin source.
+			//'source'             => get_stylesheet_directory() . '/includes/plugin_required/safe-svg.zip', // The plugin source.
 			'required'           => true, // If false, the plugin is only 'recommended' instead of required.
 			'version'            => '', // E.g. 1.0.0. If set, the active plugin must be this version or higher. If the plugin version is higher than the plugin version installed, the user will be notified to update the plugin.
 			'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.

@@ -18,9 +18,12 @@ function my_enqueue_assets() {
 This use to include the codestar-framework custom option make file file
 */
 //require_once get_theme_file_path().'/required/plugin-update-checker.php';
+
 require_once get_theme_file_path().'/required/codestar-framework-custom.php';
 require_once get_theme_file_path().'/required/redux-framework-custom.php';
+
 require_once get_theme_file_path().'/required/tgm-custom.php';
+
 require_once get_theme_file_path().'/required/One-Click-Demo-Import-custom.php';
 
 
